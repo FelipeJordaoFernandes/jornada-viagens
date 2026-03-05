@@ -41,22 +41,22 @@
 }
 
 .card.japao {
-  background: url(../img/bg-card-japao-mobile.png) no-repeat;
+  background: url(../img/mobile/Japao.png) no-repeat;
   background-size: cover;
 }
 
 .card.san-andreas {
-  background: url(../img/bg-card-san-andreas-mobile.png) no-repeat;
+  background: url(../img/mobile/San-Andreas.png) no-repeat;
   background-size: cover;
 }
 
 .card.paraiba {
-  background: url(../img/bg-card-paraiba-mobile.png) no-repeat;
+  background: url(../img/mobile/Paraiba.png) no-repeat;
   background-size: cover;
 }
 
 .card.manaus {
-  background: url(../img/bg-card-manaus-mobile.png) no-repeat;
+  background: url(../img/mobile/Manaus.png) no-repeat;
   background-size: cover;
 }
 
@@ -65,6 +65,26 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .card.japao {
+    background: url(../img/tablet/Japao.png) no-repeat;
+    background-size: cover;
+  }
+
+  .card.san-andreas {
+    background: url(../img/tablet/San-Andreas.png) no-repeat;
+    background-size: cover;
+  }
+
+  .card.paraiba {
+    background: url(../img/tablet/Paraiba.png) no-repeat;
+    background-size: cover;
+  }
+
+  .card.manaus {
+    background: url(../img/tablet/Manaus.png) no-repeat;
+    background-size: cover;
   }
 }
 
@@ -83,22 +103,22 @@
   }
 
   .card.japao {
-    background: url(../img/bg-card-japao-desktop.png) no-repeat;
+    background: url(../img/desktop/Japao.png) no-repeat;
     background-size: cover;
   }
 
   .card.san-andreas {
-    background: url(../img/bg-card-san-andreas-desktop.png) no-repeat;
+    background: url(../img/desktop/San-Andreas.png) no-repeat;
     background-size: cover;
   }
 
   .card.paraiba {
-    background: url(../img/bg-card-paraiba-desktop.png) no-repeat;
+    background: url(../img/desktop/Paraiba.png) no-repeat;
     background-size: cover;
   }
 
   .card.manaus {
-    background: url(../img/bg-card-manaus-desktop.png) no-repeat;
+    background: url(../img/desktop/Manaus.png) no-repeat;
     background-size: cover;
   }
 }
