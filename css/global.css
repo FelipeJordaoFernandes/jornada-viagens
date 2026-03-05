@@ -22,11 +22,53 @@
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
 
-  --tittle-weight: 700;
+  --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: : 500;
 }
 
 body {
   font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: center;
+  margin: 0;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.button {
+  width: 280px;
+  height: 64px;
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 20px;
+  padding: 16px 74px;
+  border-radius: 16px;
+  text-decoration: none;
+  line-height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
+  }
 }
