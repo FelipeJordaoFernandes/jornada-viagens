@@ -6,6 +6,16 @@
   background: transparent;
 }
 
-.img-items {
-    
+.img-tokyo {
+  width: 312px;
+  height: 360px;
+  background-image: url(../img/mobile/Tokyo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.destinations h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin-top: 16px;
 }
