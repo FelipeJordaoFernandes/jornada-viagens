@@ -1,0 +1,123 @@
+.destinations header {
+  display: block;
+  position: static;
+  padding: 0;
+  margin: 24px 0;
+  background: transparent;
+}
+
+.destination-items article {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.img-tokyo {
+  width: 312px;
+  height: 360px;
+  background-image: url(../img/mobile/Tokyo.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 24px auto;
+}
+
+.img-osaka {
+  width: 312px;
+  height: 360px;
+  background-image: url(../img/mobile/Osaka.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 24px auto;
+}
+
+.destinations h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.destinations p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.destinations .button {
+  width: 312px;
+  display: block;
+  margin: 24px 0 40px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .destination-items article {
+    width: 648px;
+    margin: 0 auto;
+  }
+
+  .img-tokyo {
+    background-image: url(../img/tablet/Tokyo.jpg);
+    width: 100%;
+    height: 452px;
+    margin: 24px 0;
+  }
+
+  .img-osaka {
+    background-image: url(../img/tablet/Osaka.jpg);
+    width: 100%;
+    height: 452px;
+    margin: 24px 0;
+  }
+
+  .destinations header {
+    margin: 0;
+  }
+
+  .destinations p {
+    padding: 0;
+  }
+
+  .destinations .button {
+    margin: 24px 0 40px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .destination-items {
+    display: flex;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .destination-items article {
+    width: 588px;
+  }
+
+  .destinations header {
+    margin: 0;
+  }
+
+  .destinations p {
+    padding: 0;
+    margin-top: 16px;
+  }
+
+  .destinations .button {
+    margin: 24px 0 40px;
+  }
+
+  .img-tokyo {
+    background-image: url(../img/desktop/Tokyo.jpg);
+    width: 588px;
+    height: 452px;
+    margin: 0 0 16px 0;
+  }
+
+  .img-osaka {
+    background-image: url(../img/desktop/Osaka.jpg);
+    width: 588px;
+    height: 452px;
+    margin: 0 0 16px 0;
+  }
+}

@@ -28,7 +28,9 @@
   color: var(--text-primary-color);
 }
 
-.category a h2 {
+.category a h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
   text-align: center;
 }
 
