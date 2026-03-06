@@ -34,12 +34,40 @@
   font-weight: var(--text-weight);
   line-height: 1.5;
   margin: 0;
-  padding: 24px;
+  padding: 0 24px;
 }
 
 .destinations .button {
   width: 312px;
   display: block;
-  margin: 0 auto 48px;
+  margin: 24px 24px 40px;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .img-tokyo {
+    background-image: url(../img/tablet/Tokyo.jpg);
+    width: 648px;
+    height: 452px;
+  }
+
+  .img-osaka {
+    background-image: url(../img/tablet/Osaka.jpg);
+    width: 648px;
+    height: 452px;
+  }
+
+  .destinations header {
+    margin: auto 60px;
+  }
+
+  .destinations p {
+    padding: 0 60px;
+  }
+
+  .destinations .button {
+    width: 280px;
+    margin: 24px 60px 40px;
+  }
+}
+
