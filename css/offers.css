@@ -66,6 +66,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 768px;
+    margin: 0 auto 88px;
   }
 
   .card.japao {
@@ -90,6 +92,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .offers-cards {
+    max-width: 1420px;
+    margin: 0 auto 88px;
+  }
+
   .card {
     width: 588px;
     height: 308px;
