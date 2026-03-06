@@ -30,19 +30,11 @@
 @media screen and (min-width: 1024px) {
   .hero-img {
     height: 620px;
-    background: url(../img/desktop/Banner.png) no-repeat;
+    background: url(../img/desktop/Banner-large.png) no-repeat;
     background-size: cover;
   }
 
   .hero h2 {
     padding: 104px 120px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .hero-img {
-    height: 620px;
-    background: url(../img/desktop/Banner-large.png) no-repeat;
-    background-size: cover;
   }
 }
