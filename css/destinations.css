@@ -2,7 +2,7 @@
   display: block;
   position: static;
   padding: 0;
-  margin-bottom: 24px;
+  margin: 24px;
   background: transparent;
 }
 
@@ -12,10 +12,34 @@
   background-image: url(../img/mobile/Tokyo.jpg);
   background-size: cover;
   background-position: center;
+  margin: 24px auto;
+}
+
+.img-osaka {
+  width: 312px;
+  height: 360px;
+  background-image: url(../img/mobile/Osaka.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 24px auto;
 }
 
 .destinations h4 {
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin-top: 16px;
+}
+
+.destinations p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 1.5;
+  margin: 0;
+  padding: 24px;
+}
+
+.destinations .button {
+  width: 312px;
+  display: block;
+  margin: 0 auto 48px;
+  text-align: center;
 }
