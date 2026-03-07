@@ -39,10 +39,27 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 768px;
+    margin: 0 auto 88px;
   }
 }
 @media screen and (min-width: 1024px) {
+  .category-cards {
+    max-width: 1024px;
+    margin: 0 auto 88px;
+  }
+
   .category {
-    width: 281px;
+    width: 230px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .category-cards {
+    max-width: 1240px;
+    margin: 0 auto 88px;
+  }
+  .category {
+    width: 282px;
   }
 }
