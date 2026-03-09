@@ -22,3 +22,21 @@
   width: 312px;
   margin: 0 auto 88px;
 }
+
+@media screen and (min-width: 768px) {
+  .text-content {
+    width: 648px;
+  }
+
+  .text-content h3 {
+    max-width: 768px;
+  }
+
+  .text-content p {
+    max-width: 768px;
+  }
+
+  .image-content {
+    width: 648px;
+  }
+}

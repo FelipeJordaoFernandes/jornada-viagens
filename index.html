@@ -209,10 +209,14 @@
         </p>
       </div>
       <div class="image-content">
-        <img
-          src="img/mobile/Montagem mobile.png"
-          alt="conjunto de três imagens, contendo bagagens, passaportes e pessoas em um ponto turístico."
-        />
+        <picture>
+          <source
+            media="(min-width: 1024px)"
+            srcset="img/desktop/frame-5.png"
+          />
+          <source media="(min-width: 768px)" srcset="img/tablet/frame-5.png" />
+          <img src="img/mobile/frame-5.png" alt="Descrição da imagem" />
+        </picture>
       </div>
     </section>
     <section class="testimonials">
