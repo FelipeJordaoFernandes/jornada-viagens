@@ -40,3 +40,28 @@
     width: 648px;
   }
 }
+
+@media screen and (min-width: 1240px) {
+  .payment-items {
+    display: flex;
+    gap: 23px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .text-content {
+    width: 384px;
+  }
+
+  .text-content h3 {
+    max-width: 315px;
+  }
+
+  .text-content p {
+    max-width: 357px;
+  }
+
+  .image-content {
+    width: 790px;
+  }
+}
