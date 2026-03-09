@@ -8,7 +8,7 @@
 
 .destination-items article {
   width: 312px;
-  margin: 0 auto;
+  margin: 0 auto 88px;
 }
 
 .img-tokyo {
@@ -52,7 +52,6 @@
 @media screen and (min-width: 768px) {
   .destination-items article {
     width: 648px;
-    margin: 0 auto;
   }
 
   .img-tokyo {
@@ -92,6 +91,7 @@
 
   .destination-items article {
     width: 588px;
+    margin: 0 auto 104px;
   }
 
   .destinations header {
