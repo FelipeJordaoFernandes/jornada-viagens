@@ -26,6 +26,7 @@ footer {
   font-weight: var(--text-weight);
   line-height: 28px;
   text-align: center;
+  max-width: 360px;
 }
 
 .social-links {
@@ -41,4 +42,11 @@ footer {
 
 .social-links a {
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container p {
+    font-size: 20px;
+    max-width: 768px;
+  }
 }
