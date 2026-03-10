@@ -22,12 +22,13 @@
   font-weight: var(--text-weight);
 }
 
-.testimonial-container h4 {
+.testimonial-container h3 {
   font-size: 20px;
   font-weight: var(--title-weight);
 }
 
 .testimonial-container footer {
+  all: unset;
   display: flex;
   flex-direction: row;
 }
