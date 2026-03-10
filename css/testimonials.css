@@ -28,6 +28,7 @@
 }
 
 .testimonial-container footer {
+  all: unset;
   display: flex;
   flex-direction: row;
 }

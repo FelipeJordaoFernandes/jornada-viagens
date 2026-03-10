@@ -24,6 +24,10 @@
   background: transparent;
 }
 
+.card footer {
+  all: unset;
+}
+
 .card header p {
   font-size: 20px;
   font-weight: var(--text-weight);

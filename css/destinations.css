@@ -6,6 +6,10 @@
   background: transparent;
 }
 
+.destinations footer {
+  all: unset;
+}
+
 .destination-items article {
   width: 312px;
   margin: 0 auto 88px;
