@@ -5,15 +5,38 @@
   background-size: cover;
 }
 
+.banner-img.packages {
+  background-image: url(../img/mobile/imagem-pre-rodape-destino.png);
+}
+
 @media (min-width: 768px) {
   .banner-img {
     background-image: url(../img/tablet/Imagem-pre-rodape.png);
+  }
+
+  .banner-img.packages {
+    background-image: url(../img/tablet/imagem-pre-rodape-destino.png);
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner-img {
+    background-image: url(../img/desktop/Imagem-pre-rodape.png);
+    height: 600px;
+  }
+
+  .banner-img.packages {
+    background-image: url(../img/desktop/imagem-pre-rodape-destino.png);
   }
 }
 
 @media (min-width: 1440px) {
   .banner-img {
-    background-image: url(../img/desktop/Imagem-pre-rodape.png);
+    background-image: url(../img/desktop/Imagem-pre-rodape-large.png);
     height: 600px;
+  }
+
+  .banner-img.packages {
+    background-image: url(../img/desktop/imagem-pre-rodape-destino-large.png);
   }
 }
