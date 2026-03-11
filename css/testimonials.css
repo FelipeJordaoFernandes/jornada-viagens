@@ -52,8 +52,8 @@
 @media screen and (min-width: 1440px) {
   .testimonial-container {
     flex-direction: row;
-    width: 1200px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1260px;
     margin-bottom: 104px;
   }
 }

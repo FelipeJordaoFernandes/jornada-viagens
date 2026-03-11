@@ -1,5 +1,12 @@
 .banner-img {
-  background-image: url(../img/mobile/Imagem-pre-rodape.png);
+  background: url(../img/mobile/Imagem-pre-rodape.png) no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+
+.banner-img.packages {
+  background: url(../img/mobile/imagem-pre-rodape-destino.png) no-repeat;
   width: 100%;
   height: 400px;
   background-size: cover;
@@ -7,13 +14,38 @@
 
 @media (min-width: 768px) {
   .banner-img {
-    background-image: url(../img/tablet/Imagem-pre-rodape.png);
+    background: url(../img/tablet/Imagem-pre-rodape.png) no-repeat;
+    background-size: cover;
+  }
+
+  .banner-img.packages {
+    background: url(../img/tablet/imagem-pre-rodape-destino.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner-img {
+    background: url(../img/desktop/Imagem-pre-rodape.png) no-repeat;
+    height: 600px;
+    background-size: cover;
+  }
+
+  .banner-img.packages {
+    background: url(../img/desktop/imagem-pre-rodape-destino.png) no-repeat;
+    height: 600px;
+    background-size: cover;
   }
 }
 
 @media (min-width: 1440px) {
   .banner-img {
-    background-image: url(../img/desktop/Imagem-pre-rodape.png);
-    height: 600px;
+    background: url(../img/desktop/Imagem-pre-rodape-large.png) no-repeat;
+    background-size: cover;
+  }
+
+  .banner-img.packages {
+    background: url(../img/desktop/imagem-pre-rodape-destino-large.png) no-repeat;
+    background-size: cover;
   }
 }
