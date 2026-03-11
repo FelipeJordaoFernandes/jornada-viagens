@@ -42,7 +42,7 @@
   color: var(--text-secondary-color);
 }
 
-.hero-text h2 {
+.hero h2 {
   padding: 88px 24px;
   margin: 0 auto;
   font-weight: var(--text-weight);
