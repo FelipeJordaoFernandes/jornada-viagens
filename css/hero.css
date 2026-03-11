@@ -11,6 +11,7 @@
   height: 460px;
   width: 100%;
   position: relative;
+  margin-bottom: 88px;
 }
 
 .hero-text {
@@ -116,5 +117,6 @@
   .hero-img.packages {
     background: url(../img/desktop/banner-destino-large.png) no-repeat;
     background-size: cover;
+    margin-bottom: 104px;
   }
 }
