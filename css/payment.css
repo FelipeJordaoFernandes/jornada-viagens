@@ -10,6 +10,16 @@
   margin: 0 0 24px;
 }
 
+.text-content.package h3 {
+  font-size: 40px;
+}
+
+.text-content.package h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0 0 24px;
+}
+
 .text-content p {
   font-size: 20px;
   font-weight: var(--text-weight);
@@ -53,6 +63,10 @@
 
   .text-content {
     max-width: 384px;
+  }
+
+  .text-content.package {
+    padding: 96px 0;
   }
 
   .text-content h3 {
