@@ -5,7 +5,43 @@
   background-size: cover;
 }
 
-.hero h2 {
+.hero-img.packages {
+  background: url(../img/mobile/banner-destino.png) no-repeat;
+  background-size: cover;
+  height: 460px;
+  width: 100%;
+  position: relative;
+}
+
+.hero-text {
+  margin: 0 auto;
+  padding: 65px 24px;
+  width: 100%;
+  max-width: 360px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+}
+
+.hero-text hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  color: var(--text-secondary-color);
+}
+
+.hero-text h2 {
   padding: 88px 24px;
   margin: 0 auto;
   font-weight: var(--text-weight);
@@ -16,9 +52,26 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-text {
+    margin: 0 auto;
+    padding: 209px 69px 107px 120px;
+    width: 100%;
+    max-width: 768px;
+  }
+
+  .hero-text p {
+    font-size: 32px;
+    line-height: 150%;
+  }
   .hero-img {
     height: 620px;
     background: url(../img/tablet/Banner-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hero-img.packages {
+    height: 620px;
+    background: url(../img/tablet/banner-destino.png) no-repeat;
     background-size: cover;
   }
 
@@ -36,6 +89,11 @@
     background-size: cover;
   }
 
+  .hero-img.packages {
+    background: url(../img/desktop/banner-destino.png) no-repeat;
+    background-size: cover;
+  }
+
   .hero h2 {
     padding: 104px 120px;
     max-width: 1420px;
@@ -43,9 +101,20 @@
   }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1400px) {
+  .hero-text {
+    margin: 0 auto;
+    padding: 158px 680px 158px 120px;
+    width: 100%;
+    max-width: 1400px;
+  }
   .hero-img {
     background: url(../img/desktop/Banner-large.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hero-img.packages {
+    background: url(../img/desktop/banner-destino-large.png) no-repeat;
     background-size: cover;
   }
 }
