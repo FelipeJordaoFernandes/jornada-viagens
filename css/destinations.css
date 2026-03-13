@@ -33,6 +33,33 @@
   margin: 24px auto;
 }
 
+.img-osaka.blog {
+  width: 312px;
+  height: 300px;
+  background-image: url(../img/mobile/osaka-blog.png);
+  background-size: cover;
+  background-position: center;
+  margin: 24px auto;
+}
+
+.img-hiroshima.blog {
+  width: 312px;
+  height: 300px;
+  background-image: url(../img/mobile/hiroshima-blog.png);
+  background-size: cover;
+  background-position: center;
+  margin: 24px auto;
+}
+
+.img-kyoto.blog {
+  width: 312px;
+  height: 300px;
+  background-image: url(../img/mobile/kyoto-blog.png);
+  background-size: cover;
+  background-position: center;
+  margin: 24px auto;
+}
+
 .destinations h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
