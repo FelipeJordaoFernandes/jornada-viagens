@@ -97,6 +97,27 @@
     margin: 24px 0;
   }
 
+  .img-osaka.blog {
+    background-image: url(../img/tablet/osaka-blog.png);
+    width: 100%;
+    height: 300px;
+    margin: 24px 0;
+  }
+
+  .img-hiroshima.blog {
+    background-image: url(../img/tablet/hiroshima-blog.png);
+    width: 100%;
+    height: 300px;
+    margin: 24px 0;
+  }
+
+  .img-kyoto.blog {
+    background-image: url(../img/tablet/kyoto-blog.png);
+    width: 100%;
+    height: 300px;
+    margin: 24px 0;
+  }
+
   .destinations header {
     margin: 0;
   }
