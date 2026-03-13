@@ -31,10 +31,24 @@
   all: unset;
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.testimonial-container footer img {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .profile-content {
   margin: 7px 24px;
+}
+
+.rating {
+  display: flex;
+  gap: 4px;
 }
 
 .profile-content .star {
