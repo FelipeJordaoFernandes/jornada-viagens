@@ -1,6 +1,6 @@
 .tokyo-items {
   width: 312px;
-  margin: 0 auto;
+  margin: 0 auto 88px;
 }
 
 .tokyo-items h3 {
@@ -19,6 +19,12 @@
   flex-direction: column;
   gap: 24px;
   margin-bottom: 32px;
+}
+
+.arrival-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .arrival-img {
@@ -46,4 +52,33 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 32px;}
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .tokyo-items {
+    width: 648px;
+    margin: 0 auto 88px;
+  }
+
+  .arrival {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .arrival-text {
+    width: 312px;
+  }
+
+  .arrival-img {
+    background-image: url(../img/tablet/tokyo-1.png);
+    background-size: cover;
+    width: 312px;
+  }
+
+  .accommodation-img {
+    background-image: url(../img/tablet/tokyo-2.png);
+    background-size: cover;
+    width: 100%;
+  }
+}
