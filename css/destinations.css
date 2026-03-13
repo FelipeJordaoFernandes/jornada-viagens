@@ -170,4 +170,25 @@
     height: 452px;
     margin: 0 0 16px 0;
   }
+
+  .img-osaka.blog {
+    background-image: url(../img/desktop/osaka-blog.png);
+    width: 384px;
+    height: 300px;
+    margin: 0 0 16px 0;
+  }
+
+  .img-hiroshima.blog {
+    background-image: url(../img/desktop/hiroshima-blog.png);
+    width: 384px;
+    height: 300px;
+    margin: 0 0 16px 0;
+  }
+
+  .img-kyoto.blog {
+    background-image: url(../img/desktop/kyoto-blog.png);
+    width: 384px;
+    height: 300px;
+    margin: 0 0 16px 0;
+  }
 }
