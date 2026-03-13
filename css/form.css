@@ -44,6 +44,10 @@ textarea {
   resize: none;
 }
 
+.form button {
+  margin-bottom: 88px;
+}
+
 @media screen and (min-width: 768px) {
   .section-title p {
     font-size: 20px;
@@ -81,9 +85,10 @@ textarea {
     grid-column: 1 / 3;
   }
 
-  button {
+  .form button {
     grid-column: 1 / 3;
     justify-self: center;
+    margin-bottom: 104px;
   }
 
   input[name="name"],

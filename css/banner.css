@@ -12,6 +12,13 @@
   background-size: cover;
 }
 
+.banner-img.contact {
+  background: url(../img/mobile/imagem-pre-rodape-contact.png) no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+}
+
 @media (min-width: 768px) {
   .banner-img {
     background: url(../img/tablet/Imagem-pre-rodape.png) no-repeat;
@@ -20,6 +27,11 @@
 
   .banner-img.packages {
     background: url(../img/tablet/imagem-pre-rodape-destino.png) no-repeat;
+    background-size: cover;
+  }
+
+  .banner-img.contact {
+    background: url(../img/tablet/imagem-pre-rodape-contact.png) no-repeat;
     background-size: cover;
   }
 }
@@ -36,6 +48,12 @@
     height: 600px;
     background-size: cover;
   }
+
+  .banner-img.contact {
+    background: url(../img/desktop/imagem-pre-rodape-contact.png) no-repeat;
+    height: 600px;
+    background-size: cover;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -46,6 +64,11 @@
 
   .banner-img.packages {
     background: url(../img/desktop/imagem-pre-rodape-destino-large.png) no-repeat;
+    background-size: cover;
+  }
+
+  .banner-img.contact {
+    background: url(../img/desktop/imagem-pre-rodape-contact-large.png) no-repeat;
     background-size: cover;
   }
 }
