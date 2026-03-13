@@ -48,9 +48,7 @@
 
 .destinations .button {
   width: 312px;
-  display: block;
   margin: 24px 0 40px;
-  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
