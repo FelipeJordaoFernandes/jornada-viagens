@@ -33,6 +33,33 @@
   margin: 24px auto;
 }
 
+.img-osaka.blog {
+  width: 312px;
+  height: 300px;
+  background-image: url(../img/mobile/osaka-blog.png);
+  background-size: cover;
+  background-position: center;
+  margin: 24px auto;
+}
+
+.img-hiroshima.blog {
+  width: 312px;
+  height: 300px;
+  background-image: url(../img/mobile/hiroshima-blog.png);
+  background-size: cover;
+  background-position: center;
+  margin: 24px auto;
+}
+
+.img-kyoto.blog {
+  width: 312px;
+  height: 300px;
+  background-image: url(../img/mobile/kyoto-blog.png);
+  background-size: cover;
+  background-position: center;
+  margin: 24px auto;
+}
+
 .destinations h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -67,6 +94,27 @@
     background-image: url(../img/tablet/Osaka.jpg);
     width: 100%;
     height: 452px;
+    margin: 24px 0;
+  }
+
+  .img-osaka.blog {
+    background-image: url(../img/tablet/osaka-blog.png);
+    width: 100%;
+    height: 300px;
+    margin: 24px 0;
+  }
+
+  .img-hiroshima.blog {
+    background-image: url(../img/tablet/hiroshima-blog.png);
+    width: 100%;
+    height: 300px;
+    margin: 24px 0;
+  }
+
+  .img-kyoto.blog {
+    background-image: url(../img/tablet/kyoto-blog.png);
+    width: 100%;
+    height: 300px;
     margin: 24px 0;
   }
 
@@ -120,6 +168,27 @@
     background-image: url(../img/desktop/Osaka.jpg);
     width: 588px;
     height: 452px;
+    margin: 0 0 16px 0;
+  }
+
+  .img-osaka.blog {
+    background-image: url(../img/desktop/osaka-blog.png);
+    width: 384px;
+    height: 300px;
+    margin: 0 0 16px 0;
+  }
+
+  .img-hiroshima.blog {
+    background-image: url(../img/desktop/hiroshima-blog.png);
+    width: 384px;
+    height: 300px;
+    margin: 0 0 16px 0;
+  }
+
+  .img-kyoto.blog {
+    background-image: url(../img/desktop/kyoto-blog.png);
+    width: 384px;
+    height: 300px;
     margin: 0 0 16px 0;
   }
 }
