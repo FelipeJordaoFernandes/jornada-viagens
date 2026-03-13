@@ -21,6 +21,14 @@
   margin-bottom: 88px;
 }
 
+.hero-img.contact {
+  background: url(../img/mobile/banner-contact.png) no-repeat;
+  background-size: cover;
+  height: 460px;
+  width: 100%;
+  margin-bottom: 88px;
+}
+
 .hero-text {
   margin: 0 auto;
   padding: 65px 24px;
@@ -91,6 +99,14 @@
     margin-bottom: 88px;
   }
 
+  .hero-img.contact {
+    background: url(../img/tablet/banner-contact.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+    margin-bottom: 88px;
+  }
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
@@ -112,6 +128,11 @@
 
   .hero-img.blog {
     background: url(../img/desktop/banner-blog.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hero-img.contact {
+    background: url(../img/desktop/banner-contact.png) no-repeat;
     background-size: cover;
   }
 
@@ -142,6 +163,11 @@
 
   .hero-img.blog {
     background: url(../img/desktop/banner-blog-large.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hero-img.contact {
+    background: url(../img/desktop/banner-contact-large.png) no-repeat;
     background-size: cover;
   }
 }
