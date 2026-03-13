@@ -26,6 +26,8 @@
 
 .card footer {
   all: unset;
+  display: flex;
+  justify-content: center;
 }
 
 .card header p {
