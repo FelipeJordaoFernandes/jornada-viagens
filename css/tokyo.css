@@ -1,0 +1,49 @@
+.tokyo-items {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.tokyo-items h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.tokyo-items p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
+
+.arrival {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.arrival-img {
+  background-image: url(../img/mobile/tokyo-1.png);
+  background-size: cover;
+  width: 100%;
+  height: 360px;
+}
+
+.accommodation {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.accommodation-img {
+  background-image: url(../img/mobile/tokyo-2.png);
+  background-size: cover;
+  width: 100%;
+  height: 360px;
+}
+
+.planning {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;}
