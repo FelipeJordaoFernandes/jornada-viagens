@@ -29,7 +29,23 @@ textarea {
   font-weight: var(--text-weight);
   line-height: 32px;
   width: 312px;
-  height: 120px;
+  height: 90px;
   border: 2px solid var(--background-quaternary-color);
   border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title p {
+    font-size: 20px;
+    line-height: 32px;
+    width: 648px;
+  }
+
+  input {
+    width: 648px;
+  }
+
+  textarea {
+    width: 648px;
+  }
 }
