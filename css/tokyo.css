@@ -82,3 +82,26 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .tokyo-items {
+    width: 1200px;
+    margin: 0 auto 104px;
+  }
+
+  .arrival-text {
+    width: 588px;
+  }
+
+  .arrival-img {
+    background-image: url(../img/desktop/tokyo-1.png);
+    background-size: cover;
+    width: 588px;
+  }
+
+  .accommodation-img {
+    background-image: url(../img/desktop/tokyo-2.png);
+    background-size: cover;
+    width: 100%;
+  }
+}
