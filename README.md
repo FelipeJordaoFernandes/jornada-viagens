@@ -1,67 +1,42 @@
 # Jornada Viagens
 
-Projeto de site responsivo para uma agência de viagens fictícia, desenvolvido durante os estudos de HTML e CSS e evoluído com JavaScript para adicionar interatividade, validações e uma experiência mais profissional.
+Projeto de site responsivo para uma agência de viagens fictícia. A interface foi migrada para React e ajustada a partir dos frames de desktop, tablet e mobile disponíveis no Figma.
 
 ## Preview
 
 O projeto possui quatro páginas principais:
 
-- `index.html`: página inicial com ofertas, categorias, destinos populares, condições de pagamento e depoimentos.
-- `travel-packages.html`: página de pacote de viagem para o Japão.
-- `blog.html`: post de blog com roteiro de viagem para Tóquio.
-- `contact.html`: página de contato com formulário.
+- `/`: página inicial com ofertas, categorias, destinos populares, condições de pagamento e depoimentos.
+- `/pacotes`: página de pacote de viagem para o Japão.
+- `/blog`: post de blog com roteiro de viagem para Tóquio.
+- `/contato`: página de contato com formulário.
 
 ## Funcionalidades
 
-- Layout responsivo para mobile, tablet e desktop.
-- Menu de navegação adaptado para telas menores.
-- Cards de ofertas e destinos com imagens responsivas.
-- Filtro de ofertas por categoria usando JavaScript.
-- Modal de detalhes para pacotes e destinos.
-- Formulário de contato com validação personalizada.
-- Mensagens de erro por campo e feedback de envio.
-- Animações suaves ao rolar a página.
-- Estrutura CSS modular por seção da interface.
+- Layout responsivo para mobile, tablet e desktop, alinhado ao Figma.
+- Navegação entre páginas com React Router.
+- Componentes reutilizáveis para cabeçalho, rodapé, títulos, botões, cartões e modal.
+- Filtro de ofertas por categoria, detalhes de pacote e formulário de contato controlados por estado React.
 
 ## Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
-- Responsividade com media queries
-- Web APIs:
-  - `Dialog`
-  - `IntersectionObserver`
-  - manipulação do DOM
-  - eventos de formulário
+- React
+- React Router
+- Vite
+- CSS responsivo com media queries
 
 ## Estrutura do projeto
 
 ```text
 jornada-viagens/
-|-- css/
-|   |-- banner.css
-|   |-- categories.css
-|   |-- destinations.css
-|   |-- footer.css
-|   |-- form.css
-|   |-- global.css
-|   |-- header.css
-|   |-- hero.css
-|   |-- interactive.css
-|   |-- offers.css
-|   |-- payment.css
-|   |-- style.css
-|   |-- testimonials.css
-|   `-- tokyo.css
+|-- src/
+|   |-- App.jsx
+|   |-- main.jsx
+|   `-- styles.css
 |-- fonts/
 |-- img/
-|-- js/
-|   `-- app.js
-|-- blog.html
-|-- contact.html
 |-- index.html
-|-- travel-packages.html
+|-- package.json
 `-- README.md
 ```
 
@@ -78,4 +53,4 @@ Este projeto reforça conceitos importantes de desenvolvimento front-end:
 
 ## Status
 
-Projeto em evolução para portfólio.
+Use `npm run dev` para iniciar o ambiente local e `npm run build` para gerar a versão de produção.
